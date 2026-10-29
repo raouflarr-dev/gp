@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Profile</title>
+
+    <style>
+        /* General page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Profile card */
+        .profile {
+            background-color: white;
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Main heading */
+        h1 {
+            color: #2563eb;
+            font-size: 32px;
+        }
+
+        /* Section headings */
+        h2 {
+            color: #333333;
+            margin-top: 25px;
+        }
+
+        /* Paragraphs */
+        p {
+            color: #555555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Skills list */
+        ul {
+            display: inline-block;
+            text-align: left;
+            color: #555555;
+            line-height: 1.8;
+        }
+
+        /* Links */
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Button */
+        button {
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 25px;
+            color: #888888;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile">
+
+        <h1>Hello, I'm Alex!</h1>
+
+        <p>
+            Welcome to my personal website.
+            I am a computer science student learning web development.
+        </p>
+
+        <h2>About Me</h2>
+
+        <p>
+            I enjoy programming, learning new technologies,
+            and building useful projects.
+        </p>
+
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Problem Solving</li>
+        </ul>
+
+        <h2>My Hobbies</h2>
+
+        <p>
+            Programming, football, reading, and listening to music.
+        </p>
+
+        <h2>My Favorite Learning Website</h2>
+
+        <p>
+            Visit
+            <a href="https://www.w3schools.com/" target="_blank">
+                W3Schools
+            </a>
+            to learn web development.
+        </p>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+
+        <footer>
+            <p>&copy; 2026 My Personal Profile</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Welcome to my personal profile!");
+        }
+    </script>
+
+</body>
+
+</html>
